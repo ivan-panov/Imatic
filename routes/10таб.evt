@@ -1,0 +1,1071 @@
+<eventlist ver=1.0 parsetime=10>
+	<name>10: рылова-Ўкола7</name>
+	<block order=seq>
+		<event>
+			<name> рылова</name>
+			<zone shape=circle>
+				<point lat=56.12836 lon=86.04502 />
+				<radius>75</radius>
+			</zone>
+			<reaction logic=fall>
+				<play file=imatic/wave/steklo1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>—теклоплащадка</name>
+			<zone shape=circle>
+				<point lat=56.12993 lon=86.03606 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№йќ∆вштѕд»тЅжи∆≈вшƒўј„ ћби÷‘зщкЅијƒќј„ќ‘г…ц“вшж јў∆№гиюЋ€фЌ√юеоа</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/steklo2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/tlrynok1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>“ульский рынок</name>
+			<zone shape=circle>
+				<point lat=56.12539 lon=86.03137 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№щ“ћзў ЋвЎиЅдўтќгшмўј„ ћби÷‘зщкЅијƒќј÷÷ѕг–∆Ће»тЁдщ“—зѕэ√–€кяд–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/tlrynok2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/dkultur1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ƒом культуры</name>
+			<zone shape=circle>
+				<point lat=56.12376 lon=86.02796 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅўЎюЌјЎо‘г…ц”е…∆№∆–≈тг»Џ≈е…юЏаЏјЅ√а≈ргшт…вшт…гижЋаяэ√–€кџьајј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/dkultur2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/polikli1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ѕоликлиника</name>
+			<zone shape=circle>
+				<point lat=56.11998 lon=86.02545 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№»юћвЎоћвЎъ…вшƒўј„ ћби÷‘зщкЅијƒќј„¬ѕбў ”аЎъ„вЏ√€–фѕъцЎјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/polikli2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/podstan1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ѕодстанци€</name>
+			<zone shape=circle>
+				<point lat=56.11663 lon=86.02573 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№»ю≈дйќЅгйё…иЅдЅ№ит∆бў“яжи∆ај–шЅЁижЌв»∆√гш„€–фѕъќтиј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/podstan2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/khimzav1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>’имзавод</name>
+			<zone shape=circle>
+				<point lat=56.11175 lon=86.02373 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЁижЌв»∆√гш‘ўј„ ћби÷‘зщкЅијƒќј÷“ѕдЎъѕдй¬Ѕди∆”битЁги∆а€фЌ√югзя</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/khimzav2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gornosp1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√орноспасательна€</name>
+			<zone shape=circle>
+				<point lat=56.10533 lon=86.02114 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»ю—гию“д»∆“аўќ∆г…цќаЏјўј„ ћби÷‘зщкЅијƒќјў“ћвўёЅј÷ц…дЎ«€–фѕъяцƒј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gornosp2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/mira1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.ћира</name>
+			<zone shape=circle>
+				<point lat=56.10157 lon=86.01968 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅџЎж—а—дЅ№ит∆бў“яжи∆ај–шЅёЎќ∆виъЅиѕэ√–€лЁнрјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/mira2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/shveyna1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ўвейна€</name>
+			<zone shape=circle>
+				<point lat=56.09561 lon=86.01886 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕјЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅёЎќ∆виъЅиЅдЅ№ит∆бў“яжи∆ај–шЅЁчщнџяэ√–€и с–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/shveyna2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/tsemm1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>÷Ёћћ</name>
+			<zone shape=circle>
+				<point lat=56.09001 lon=86.01761 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЁчщнџ—дЅ№ит∆бў“яжи∆ај–шЅџ»жќбикќаЏјЅбЎж“д»Џ”ж»Џ—диоЅиѕэ√–€и÷Ћјјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/tsemm2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/dispetc1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ћинейна€ диспетчерска€</name>
+			<zone shape=circle>
+				<point lat=56.08352 lon=86.01213 />
+				<radius>80</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>‘јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅџ»жќбикќаЏјЅбЎж“д»Џ”ж»Џ—диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅЁ»ъ…ашЏ—гЎ∆ƒ€фЌ√юпжг</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/dispetc2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/univerm1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>”нивермаг</name>
+			<zone shape=circle>
+				<point lat=56.07988 lon=86.01871 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЁ»ъ…ашЏ—гЎ∆ƒ∆–≈тг»Џ≈е…юЏаЏјЅ√а≈саЎ÷‘б»«€–фѕъ∆џај</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/univerm2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/raduga1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>–адуга</name>
+			<zone shape=circle>
+				<point lat=56.07512 lon=86.02407 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№Ў∆≈е»“Ѕ∆–≈тг»Џ≈е…юЏаЏјЅ√а∆‘г»ж„а–≈рбй∆ѕащ ЋаЏ√€–фѕъ∆ќ№ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/raduga2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/perovsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.ѕеровска€</name>
+			<zone shape=circle>
+				<point lat=56.06799 lon=86.02421 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅ№»Џ—гшќ“вш∆а∆–≈тг»Џ≈е…юЏаЏјЅ√а≈ваЎт”вЎк“вш∆а€фЌ√юиј“</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/perovsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/baltiys1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ѕалтийска€</name>
+			<zone shape=circle>
+				<point lat=56.06598 lon=86.01198 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎи∆ћдшж диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅЎў∆÷вЎѕ€–фѕъз¬–ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/baltiys2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/arkhiv1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>јрхив</name>
+			<zone shape=circle>
+				<point lat=56.06328 lon=86.00733 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕ–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎў∆÷вЎћўј„ ћби÷‘зщкЅијƒќј÷о∆гў ∆дщч€–фѕъцѕјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/arkhiv2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kemset1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> емсеть</name>
+			<zone shape=circle>
+				<point lat=56.06396 lon=86.01411 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏшЏЌдиЏ”з—дЅ№ит∆бў“яжи∆ај–шЅЎиЏћвЎъ“вшюƒг€э√–€и∆“јјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/kemset2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/belinsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ѕелинского</name>
+			<zone shape=circle>
+				<point lat=56.06592 lon=86.02558 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎиЏћвЎъ“вшюƒгсдЅ№ит∆бў“яжи∆ај–шЅЏшюќдшю—аяэ√–€йксрјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/belinsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kontora1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> онтора</name>
+			<zone shape=circle>
+				<point lat=56.06833 lon=86.03211 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕаЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏшюќдшю—а—дЅ№ит∆бў“яжи∆ај–шЅў»ю—дшю–€фЌ√юйба</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/kontora2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gortop1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√ортоп</name>
+			<zone shape=circle>
+				<point lat=56.07069 lon=86.03724 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»ю—дшю–∆–≈тг»Џ≈е…юЏаЏјЅ√а≈тдш∆ќешжѕгиъЅиѕэ√–€иё»јјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gortop2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/stantsi1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>—танционна€</name>
+			<zone shape=circle>
+				<point lat=56.07227 lon=86.04236 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№йќЅгйё…гшъќаЏјўј„ ћби÷‘зщкЅијƒќј÷ќѕвшвЅгѕэ√–€итдрјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/stantsi2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/vokzal1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>¬окзал</name>
+			<zone shape=circle>
+				<point lat=56.07585 lon=86.04901 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎшюЋв»∆ћ∆–≈тг»Џ≈е…юЏаЏјЅ√а≈даў ”дЎ∆ќгшч€–фѕъцъ»ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/vokzal2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gastron1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√астраном</name>
+			<zone shape=circle>
+				<point lat=56.07334 lon=86.05834 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>’рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»∆“дщ∆ЅгиюЌ∆–≈тг»Џ≈е…юЏаЏјЅ√а∆ўаўЏ”гщ“–дЎ∆√г»ЏќвЎЎЅЁЎж»вщ“ћзўќ‘дЎъ…в€э√–€лџыајј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gastron2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/fizkult1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>‘изкультурник</name>
+			<zone shape=circle>
+				<point lat=56.06559 lon=86.06878 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>„–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅжЎ∆÷дшю‘д…∆Ѕашт∆гиж∆ј„÷…в»о‘г…ц”е…∆ќвЎмўј„ ћби÷‘зщкЅијƒќјў¬∆дЎЏ‘г»юЋјЎ¬ дио…впэ√–€ййхрјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/fizkult2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/yayskiy1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>пер.яйский</name>
+			<zone shape=circle>
+				<point lat=56.06649 lon=86.07824 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅд»Џ—бй“ћгшмЅа»к“вшж ∆–≈тг»Џ≈е…юЏаЏјЅ√а∆ўаўЏ”а–≈ггщ ÷гш„€–фѕъхорј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/yayskiy2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/voskhod1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>шахта ¬осход</name>
+			<zone shape=circle>
+				<point lat=56.06777 lon=86.08507 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅжЎ∆÷дшƒЅЎшю“еию≈∆–≈тг»Џ≈е…юЏаЏјЅ√а∆‘г»ж„а–≈зе»оѕащ Ћгш“ѕ€фЌ√юйѕг</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/voskhod2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/zhukovs1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.∆уковского</name>
+			<zone shape=circle>
+				<point lat=56.06551 lon=86.08667 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅўщ“Ћгшќ“вшюƒгсдЅ№ит∆бў“яжи∆ај–шЅџ»ЏќвЎъƒдЎ∆≈диоЅиѕэ√–€иўы–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/zhukovs2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/leningr1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ћенинградска€</name>
+			<zone shape=circle>
+				<point lat=56.06893 lon=86.09841 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅџ»ЏќвЎъƒдЎ∆≈диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅЏщ∆ЅдиъѕбЎюќешЏ√€фЌ√южтѕ</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/leningr2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/krasnod1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> раснодонцев</name>
+			<zone shape=circle>
+				<point lat=56.07186 lon=86.10236 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏщ∆ЅдиъѕбЎюќешЏ√∆–≈тг»Џ≈е…юЏаЏјЅ√а≈щвшюћа–≈а¬яэ√–€йиб–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/krasnod2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/7shkola1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ўкола7</name>
+			<zone shape=circle>
+				<point lat=56.06968 lon=86.10925 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅёЎоѕг»ƒЅЎјдўј„ ћби÷‘зщкЅијƒќј÷о—аў ќгш÷ѕгйё∆а€э√–€йцфјјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/7shkola2.wav channel=HPO></play>
+				<delay time=5 />
+				<nextlist>10:Ўкола7- рылова</nextlist>
+			</reaction>
+		</event>
+	</block>
+	<nextlist>10:Ўкола7- рылова</nextlist>
+</eventlist>
+<eventlist ver=1.0 parsetime=10>
+	<name>10:Ўкола7- рылова</name>
+	<block order=seq>
+		<event>
+			<name>Ўкола7</name>
+			<zone shape=circle>
+				<point lat=56.06971 lon=86.10921 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=fall>
+				<play file=imatic/wave/krasnod1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> раснодонцева</name>
+			<zone shape=circle>
+				<point lat=56.07207 lon=86.10249 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏщ∆ЅдиъѕбЎюќешЏ√∆–≈тг»Џ≈е…юЏаЏјЅ√а≈мбиъ…ги“—аЎ÷“вш∆а€фЌ√юз÷ќ</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/krasnod2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/leningr1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ћенинградска€</name>
+			<zone shape=circle>
+				<point lat=56.06855 lon=86.09755 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅџ»ЏќвЎъƒдЎ∆≈диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅе»т…ешƒЅўщ“Ћгшќ“вшюƒг€э√–€йуй–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/leningr2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/zhukovs1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.∆уковского</name>
+			<zone shape=circle>
+				<point lat=56.06562 lon=86.08683 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅўщ“Ћгшќ“вшюƒгсдЅ№ит∆бў“яжи∆ај–шЅжЎ∆÷дшƒЅЎшю“еию≈€фЌ√юйдƒ</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/zhukovs2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/voskhod1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>шахта ¬осход</name>
+			<zone shape=circle>
+				<point lat=56.06806 lon=86.08518 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅжЎ∆÷дшƒЅЎшю“еию≈∆–≈тг»Џ≈е…юЏаЏјЅ√а∆–бй∆∆е»тѕвр∆јвй ЋвЎл€–фѕъеЋ‘ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/voskhod2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/yayskiy1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>пер.яйский</name>
+			<zone shape=circle>
+				<point lat=56.06647 lon=86.07792 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>„–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅд»Џ—бй“ћгшмЅа»к“вшж ∆–≈тг»Џ≈е…юЏаЏјЅ√а∆ўаўЏ”гщ“–дЎ∆√г»ЏќвЎЎЅЁЎж»вщ“ћзўќ‘дЎъ…в€э√–€иу»–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/yayskiy2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/fizkult1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>‘изкультурник</name>
+			<zone shape=circle>
+				<point lat=56.06569 lon=86.06876 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>’рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅжЎ∆÷дшю‘д…∆Ѕашт∆гиж∆ј„÷…в»о‘г…ц”е…∆ќвЎмўј„ ћби÷‘зщкЅијƒќј÷“Ѕдйќ—аЎъѕгяэ√–€йЏ„рјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/fizkult2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gastron1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√астроном</name>
+			<zone shape=circle>
+				<point lat=56.07391 lon=86.05766 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»∆“дщ∆ЅгиюЌ∆–≈тг»Џ≈е…юЏаЏјЅ√а≈ггшо»аЎу€–фѕъѕрƒј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gastron2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/vokzal1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>¬окзал</name>
+			<zone shape=circle>
+				<point lat=56.07574 lon=86.04819 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/vokzal2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/stantsi1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>¬окзал</name>
+			<zone shape=circle>
+				<point lat=56.07574 lon=86.04819 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎшюЋв»∆ћ∆–≈тг»Џ≈е…юЏаЏјЅ√а≈тдш∆ќешжѕгиъЅиѕэ√–€кƒь–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/stantsi2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gortop1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>—танционна€</name>
+			<zone shape=circle>
+				<point lat=56.0727 lon=86.04298 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№йќЅгйё…гшъќаЏјўј„ ћби÷‘зщкЅијƒќј÷“ѕдўќѕдѕэ√–€иёчјјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/stantsi2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gortop1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√ортоп</name>
+			<zone shape=circle>
+				<point lat=56.07047 lon=86.03599 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕаЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»ю—дшю–∆–≈тг»Џ≈е…юЏаЏјЅ√а≈лгшъ”гщ∆Ѕ€фЌ√юпяо</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gortop2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kontora1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> онтора</name>
+			<zone shape=circle>
+				<point lat=56.06843 lon=86.03206 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏшюќдшю—а—дЅ№ит∆бў“яжи∆ај–шЅЎиЏћвЎъ“вшюƒг€э√–€йнцјјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/kontora2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/belinsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ѕелинского</name>
+			<zone shape=circle>
+				<point lat=56.06576 lon=86.02461 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎиЏћвЎъ“вшюƒгсдЅ№ит∆бў“яжи∆ај–шЅЏшЏЌдиЏ”зяэ√–€й¬––јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/belinsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kemset1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> емсеть</name>
+			<zone shape=circle>
+				<point lat=56.06412 lon=86.01468 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕ–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏшЏЌдиЏ”з—дЅ№ит∆бў“яжи∆ај–шЅЎў∆÷вЎѕ€–фѕъћ≈Ўј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/kemset2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/arkhiv1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>јрхив</name>
+			<zone shape=circle>
+				<point lat=56.06364 lon=86.00727 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎў∆÷вЎћўј„ ћби÷‘зщкЅијƒќј÷ Ѕг…ќ…вй ЋаЏ√€–фѕъш“–ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/arkhiv2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/baltiys1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ѕалтийска€</name>
+			<zone shape=circle>
+				<point lat=56.06585 lon=86.01329 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЎи∆ћдшж диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅе»т…ешƒЅ№»Џ—гшќ“вш∆а€фЌ√юлыю</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/baltiys2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/perovsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.ѕеровска€</name>
+			<zone shape=circle>
+				<point lat=56.06793 lon=86.02451 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅ№»Џ—гшќ“вш∆а∆–≈тг»Џ≈е…юЏаЏјЅ√а≈саЎ÷‘б»«€–фѕъ≈щ‘ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/perovsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/raduga1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>–адуга</name>
+			<zone shape=circle>
+				<point lat=56.07462 lon=86.02431 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№Ў∆≈е»“Ѕ∆–≈тг»Џ≈е…юЏаЏјЅ√а≈рг»юЏаЎ÷Ёј„∆∆ашюћзщё…вяэ√–€лщх–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/raduga2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/revolyu1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>пл.–еволюции</name>
+			<zone shape=circle>
+				<point lat=56.07872 lon=86.01963 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>÷јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№»тѕжи∆≈з–≈сбиќѕг…ю„вЎдўј„ ћби÷‘зщкЅијƒќј÷т…гиЏ ги∆ајЎ÷…дй¬∆дщв∆дў ЋаЏ√€–фѕъфЁмј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/revolyu2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/dispetc1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ћинейна€ диспетчерска€</name>
+			<zone shape=circle>
+				<point lat=56.08347 lon=86.0122 />
+				<radius>80</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅџ»жќбикќаЏјЅбЎж“д»Џ”ж»Џ—диоЅиЅдЅ№ит∆бў“яжи∆ај–шЅЁчщнџяэ√–€йЎЁајј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/dispetc2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/tsemm1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>÷Ёћћ</name>
+			<zone shape=circle>
+				<point lat=56.08998 lon=86.01771 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>ѕјЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЁчщнџ—дЅ№ит∆бў“яжи∆ај–шЅёЎќ∆виъЅиѕэ√–€лоЋ–јј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/tsemm2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/shveyna1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Ўвейна€</name>
+			<zone shape=circle>
+				<point lat=56.09538 lon=86.01887 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅёЎќ∆виъЅиЅдЅ№ит∆бў“яжи∆ај–шЅе»т…ешƒЅџЎж—аяэ√–€леёајј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/shveyna2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/mira1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.ћира</name>
+			<zone shape=circle>
+				<point lat=56.10153 lon=86.01988 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅе»т…ешƒЅџЎж—а—дЅ№ит∆бў“яжи∆ај–шЅў»ю—гию“д»∆“аўќ∆г…цќаЏ√€–фѕълћрј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/mira2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gornosp1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>√орноспасательна€</name>
+			<zone shape=circle>
+				<point lat=56.10572 lon=86.02148 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅў»ю—гию“д»∆“аўќ∆г…цќаЏјўј„ ћби÷‘зщкЅијƒќј„Џ…гЎвЅашю≈€фЌ√юм»џ</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/gornosp2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/khimzav1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>’имзавод</name>
+			<zone shape=circle>
+				<point lat=56.11015 lon=86.02322 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>–рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЁижЌв»∆√гш‘ўј„ ћби÷‘зщкЅијƒќј„¬ѕбў ”аЎъ„вЏ√€–фѕъ”…–ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/khimzav2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/podstan1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ѕодстанци€</name>
+			<zone shape=circle>
+				<point lat=56.11588 lon=86.02584 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№»ю≈дйќЅгйё…иЅдЅ№ит∆бў“яжи∆ај–шЅ№»юћвЎоћвЎъ…вш«€–фѕъћт№ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/podstan2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/polikli1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ѕоликлиника</name>
+			<zone shape=circle>
+				<point lat=56.12045 lon=86.02584 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“јЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№»юћвЎоћвЎъ…вшƒўј„ ћби÷‘зщкЅијƒќј÷÷ѕг–∆Ће»тЁдщ“—зѕэ√–€л∆…јјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/polikli2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/dkultur1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ƒом культуры</name>
+			<zone shape=circle>
+				<point lat=56.12399 lon=86.02827 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>“рЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅўЎюЌјЎо‘г…ц”е…∆№∆–≈тг»Џ≈е…юЏаЏјЅ√а≈уе»тЁдио…ва∆—з»ъѕв€э√–€йё рјј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/dkultur2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/tlrynok1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>“ульский рынок</name>
+			<zone shape=circle>
+				<point lat=56.12534 lon=86.03285 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>”–Ѕ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№щ“ћзў ЋвЎиЅдўтќгшмўј„ ћби÷‘зщкЅијƒќј„ ”биоћгщ¬ћаўкЅбЎоЅ€фЌ√юкЌх</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/tlrynok2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/steklo1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>—теклоплащадка</name>
+			<zone shape=circle>
+				<point lat=56.12939 lon=86.03582 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅ№йќ∆вштѕд»тЅжи∆≈вшƒўј„ ћби÷‘зщкЅијƒќј÷о—з»тѕаш«€–фѕъ≈е‘ј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/steklo2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/krylova1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name> рылова</name>
+			<zone shape=circle>
+				<point lat=56.12841 lon=86.04481 />
+				<radius>75</radius>
+			</zone>
+			<reaction logic=rise>
+				<panel type=cabin>
+					<txt line=0 effect=no time=9>—аЅ––пьјјярЅ€ф»ј€—ƒјЅ—”ыјпрјџщ ”аЎъѕашоЅј–шЅЏщ∆№г»ю√а—дЅ№ит∆бў“яжи∆ај–шЅ№йќ∆вштѕд»тЅжи∆≈вш«€–фѕънярј</txt>
+				</panel>
+				<delay time=1 />
+				<play file=imatic/wave/krylova2.wav channel=HPO></play>
+				<delay time=5 />
+				<nextlist>10: рылова-Ўкола7</nextlist>
+			</reaction>
+		</event>
+	</block>
+	<nextlist>10: рылова-Ўкола7</nextlist>
+</eventlist>
