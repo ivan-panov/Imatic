@@ -4,7 +4,7 @@
 		<event>
 			<name>Крылова</name>
 			<zone shape=circle>
-				<point lat=56.12841 lon=86.04481 />
+				<point lat=56.12834 lon=86.04501 />
 				<radius>75</radius>
 			</zone>
 			<reaction logic=fall>
@@ -14,7 +14,7 @@
 		<event>
 			<name>Стеклоплащадка</name>
 			<zone shape=circle>
-				<point lat=56.12993 lon=86.03612 />
+				<point lat=56.1299 lon=86.03608 />
 				<radius>53</radius>
 			</zone>
 			<reaction logic=rise>
