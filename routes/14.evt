@@ -1,0 +1,366 @@
+<eventlist ver=1.0 parsetime=10>
+	<name>14:ЛД-Гастроном</name>
+	<block order=seq>
+		<event>
+			<name>Линейная диспетчерская</name>
+			<zone shape=circle>
+				<point lat=56.08347 lon=86.0122 />
+				<radius>75</radius>
+			</zone>
+			<reaction logic=fall>
+				<play file=imatic/wave/univerm1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Универмаг</name>
+			<zone shape=circle>
+				<point lat=56.07978 lon=86.01881 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/univerm2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/raduga1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Радуга</name>
+			<zone shape=circle>
+				<point lat=56.07505 lon=86.02413 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/raduga2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/perovsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ул.Перовская</name>
+			<zone shape=circle>
+				<point lat=56.06792 lon=86.02429 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/perovsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/baltiys1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Балтийская</name>
+			<zone shape=circle>
+				<point lat=56.06595 lon=86.01196 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/baltiys2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/arkhiv1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Архив</name>
+			<zone shape=circle>
+				<point lat=56.06327 lon=86.00744 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/arkhiv2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kemset1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Кемсеть</name>
+			<zone shape=circle>
+				<point lat=56.06398 lon=86.01432 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/kemset2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/syvor1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Суворова</name>
+			<zone shape=circle>
+				<point lat=56.0575 lon=86.02201 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/syvor2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/matros1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>пл.Матросова</name>
+			<zone shape=circle>
+				<point lat=56.05077 lon=86.02474 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/matros2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/klub1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Клуб</name>
+			<zone shape=circle>
+				<point lat=56.04832 lon=86.02589 />
+				<radius>70</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/klub2.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Гастроном</name>
+			<zone shape=circle>
+				<point lat=56.07391 lon=86.05766 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/gastron2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/vokzal1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Вокзал</name>
+			<zone shape=circle>
+				<point lat=56.07574 lon=86.04819 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/vokzal2.wav channel=HPO></play>
+				<delay time=5 />
+				<nextlist>14:Гастроном-ЛД</nextlist>
+			</reaction>
+		</event>
+	</block>
+	<nextlist>14:Гастроном-ЛД</nextlist>
+</eventlist>
+<eventlist ver=1.0 parsetime=10>
+	<name>14:Гастроном-ЛД</name>
+	<block order=seq>
+		<event>
+			<name>Вокзал</name>
+			<zone shape=circle>
+				<point lat=56.07574 lon=86.04819 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=fall>
+				<play file=imatic/wave/stantsi1.wav channel=HPO></play>
+				<delay time=5 />
+				<play file=imatic/wave/003.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Станционная</name>
+			<zone shape=circle>
+				<point lat=56.0727 lon=86.04298 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/stantsi2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/gortop1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Гортоп</name>
+			<zone shape=circle>
+				<point lat=56.07047 lon=86.03599 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/gortop2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kontora1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Контора</name>
+			<zone shape=circle>
+				<point lat=56.06843 lon=86.03206 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/kontora2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/belinsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Белинского</name>
+			<zone shape=circle>
+				<point lat=56.06576 lon=86.02461 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/belinsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kemset1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Кемсеть</name>
+			<zone shape=circle>
+				<point lat=56.06412 lon=86.01468 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/kemset2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/arkhiv1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Архив</name>
+			<zone shape=circle>
+				<point lat=56.06364 lon=86.00727 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/arkhiv2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/baltiys1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Балтийская</name>
+			<zone shape=circle>
+				<point lat=56.06557 lon=86.01033 />
+				<radius>75</radius>
+			</zone>
+			<reaction logic=fall>
+				<play file=imatic/wave/prjev1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Пржевальского</name>
+			<zone shape=circle>
+				<point lat=56.06474 lon=85.99957 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/prjev2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/grp1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>ГРП</name>
+			<zone shape=circle>
+				<point lat=56.06575 lon=85.9918 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/grp2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/kuib1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Куйбышева</name>
+			<zone shape=circle>
+				<point lat=56.06913 lon=85.98743 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/kuib2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/38shkol1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Школа38</name>
+			<zone shape=circle>
+				<point lat=56.07275 lon=85.98419 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/38shkol2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/mstroi1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Машиностроительная</name>
+			<zone shape=circle>
+				<point lat=56.07596 lon=85.98492 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/mstroi2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/omsk1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Омская</name>
+			<zone shape=circle>
+				<point lat=56.08016 lon=85.99414 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/omsk2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/mzavod1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Машзавод</name>
+			<zone shape=circle>
+				<point lat=56.08197 lon=86.00003 />
+				<radius>60</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/mzavod2.wav channel=HPO></play>
+			</reaction>
+			<reaction logic=fall>
+				<play file=imatic/wave/dispetc1.wav channel=HPO></play>
+			</reaction>
+		</event>
+		<event>
+			<name>Линейная диспетчерская</name>
+			<zone shape=circle>
+				<point lat=56.08347 lon=86.0122 />
+				<radius>75</radius>
+			</zone>
+			<reaction logic=rise>
+				<play file=imatic/wave/dispetc2.wav channel=HPO></play>
+				<delay time=5 />
+				<nextlist>14:ЛД-Гастроном</nextlist>
+			</reaction>
+		</event>
+	</block>
+	<nextlist>14:ЛД-Гастроном</nextlist>
+</eventlist>
