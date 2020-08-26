@@ -14,8 +14,8 @@
 		<event>
 			<name>Стеклоплащадка</name>
 			<zone shape=circle>
-				<point lat=56.1299 lon=86.03608 />
-				<radius>53</radius>
+				<point lat=56.12992 lon=86.03615 />
+				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
 				<play file=imatic/wave/steklo2.wav channel=HPO></play>
@@ -27,8 +27,8 @@
 		<event>
 			<name>Тульский рынок</name>
 			<zone shape=circle>
-				<point lat=56.12537 lon=86.03124 />
-				<radius>50</radius>
+				<point lat=56.12537 lon=86.03134 />
+				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
 				<play file=imatic/wave/tlrynok2.wav channel=HPO></play>
@@ -40,7 +40,7 @@
 		<event>
 			<name>Дом культуры</name>
 			<zone shape=circle>
-				<point lat=56.12374 lon=86.02801 />
+				<point lat=56.12386 lon=86.02812 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -53,7 +53,7 @@
 		<event>
 			<name>Поликлиника</name>
 			<zone shape=circle>
-				<point lat=56.11994 lon=86.02547 />
+				<point lat=56.11998 lon=86.02549 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -66,7 +66,7 @@
 		<event>
 			<name>Подстанция</name>
 			<zone shape=circle>
-				<point lat=56.11655 lon=86.0257 />
+				<point lat=56.11662 lon=86.02581 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -79,7 +79,7 @@
 		<event>
 			<name>Химзавод</name>
 			<zone shape=circle>
-				<point lat=56.11164 lon=86.02375 />
+				<point lat=56.11174 lon=86.02377 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -92,7 +92,7 @@
 		<event>
 			<name>Горноспасательная</name>
 			<zone shape=circle>
-				<point lat=56.10528 lon=86.02114 />
+				<point lat=56.10532 lon=86.02123 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -105,7 +105,7 @@
 		<event>
 			<name>ул.Мира</name>
 			<zone shape=circle>
-				<point lat=56.10152 lon=86.0196 />
+				<point lat=56.10158 lon=86.01976 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -118,7 +118,7 @@
 		<event>
 			<name>Швейная</name>
 			<zone shape=circle>
-				<point lat=56.09556 lon=86.01882 />
+				<point lat=56.09566 lon=86.01894 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -131,7 +131,7 @@
 		<event>
 			<name>ЦЭММ</name>
 			<zone shape=circle>
-				<point lat=56.08991 lon=86.0176 />
+				<point lat=56.08999 lon=86.01766 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -146,7 +146,7 @@
 		<event>
 			<name>Линейная диспетчерская</name>
 			<zone shape=circle>
-				<point lat=56.08347 lon=86.0122 />
+				<point lat=56.08355 lon=86.01214 />
 				<radius>80</radius>
 			</zone>
 			<reaction logic=rise>
@@ -159,7 +159,7 @@
 		<event>
 			<name>Универмаг</name>
 			<zone shape=circle>
-				<point lat=56.07978 lon=86.01881 />
+				<point lat=56.07988 lon=86.01878 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -172,7 +172,7 @@
 		<event>
 			<name>Радуга</name>
 			<zone shape=circle>
-				<point lat=56.07505 lon=86.02413 />
+				<point lat=56.07513 lon=86.02414 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -185,7 +185,7 @@
 		<event>
 			<name>ул.Перовская</name>
 			<zone shape=circle>
-				<point lat=56.06792 lon=86.02429 />
+				<point lat=56.06801 lon=86.02434 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -198,7 +198,7 @@
 		<event>
 			<name>Балтийская</name>
 			<zone shape=circle>
-				<point lat=56.06595 lon=86.01196 />
+				<point lat=56.06594 lon=86.01202 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -211,8 +211,8 @@
 		<event>
 			<name>Архив</name>
 			<zone shape=circle>
-				<point lat=56.06327 lon=86.00744 />
-				<radius>60</radius>
+				<point lat=56.06329 lon=86.00724 />
+				<radius>80</radius>
 			</zone>
 			<reaction logic=rise>
 				<play file=imatic/wave/arkhiv2.wav channel=HPO></play>
@@ -224,7 +224,7 @@
 		<event>
 			<name>Кемсеть</name>
 			<zone shape=circle>
-				<point lat=56.06398 lon=86.01432 />
+				<point lat=56.06396 lon=86.01414 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -237,7 +237,7 @@
 		<event>
 			<name>Белинского</name>
 			<zone shape=circle>
-				<point lat=56.06593 lon=86.0257 />
+				<point lat=56.06594 lon=86.02561 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -250,7 +250,7 @@
 		<event>
 			<name>Контора</name>
 			<zone shape=circle>
-				<point lat=56.06839 lon=86.0322 />
+				<point lat=56.06835 lon=86.03209 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -263,7 +263,7 @@
 		<event>
 			<name>Гортоп</name>
 			<zone shape=circle>
-				<point lat=56.07074 lon=86.03743 />
+				<point lat=56.07073 lon=86.03732 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -276,7 +276,7 @@
 		<event>
 			<name>Станционная</name>
 			<zone shape=circle>
-				<point lat=56.07232 lon=86.04246 />
+				<point lat=56.07232 lon=86.04239 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -289,8 +289,8 @@
 		<event>
 			<name>Вокзал</name>
 			<zone shape=circle>
-				<point lat=56.07592 lon=86.04915 />
-				<radius>60</radius>
+				<point lat=56.07586 lon=86.04905 />
+				<radius>80</radius>
 			</zone>
 			<reaction logic=rise>
 				<play file=imatic/wave/vokzal2.wav channel=HPO></play>
@@ -304,7 +304,7 @@
 		<event>
 			<name>Гастраном</name>
 			<zone shape=circle>
-				<point lat=56.07333 lon=86.05843 />
+				<point lat=56.07339 lon=86.05836 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
@@ -317,7 +317,7 @@
 		<event>
 			<name>Физкультурник</name>
 			<zone shape=circle>
-				<point lat=56.06545 lon=86.069 />
+				<point lat=56.06561 lon=86.06883 />
 				<radius>60</radius>
 			</zone>
 			<reaction logic=rise>
