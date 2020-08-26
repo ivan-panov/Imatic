@@ -1,4 +1,4 @@
-<eventlist ver=1.0 parsetime=10>
+<eventlist ver=1.0 parsetime=30>
 	<name>10: рылова-Ўкола7</name>
 	<block order=seq>
 		<event>
@@ -407,7 +407,7 @@
 	</block>
 	<nextlist>10:Ўкола7- рылова</nextlist>
 </eventlist>
-<eventlist ver=1.0 parsetime=10>
+<eventlist ver=1.0 parsetime=30>
 	<name>10:Ўкола7- рылова</name>
 	<block order=seq>
 		<event>
